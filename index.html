@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This is for you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:ital@0;1&family=Lora:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <h1 class="title">This is for you</h1>
+
+    <div class="envelope-wrapper">
+      <img class="envelope-img" src="assets/envelope.png" alt="" />
+      <div class="card-scene">
+        <div class="card" id="card">
+
+          <!-- FRONT -->
+          <div class="card-face card-front">
+            <!-- Left: flower decoration -->
+            <div class="card-front-left">
+              <img class="flower" src="assets/flower-white.png" alt="flower" />
+            </div>
+
+            <!-- Right: postcard content -->
+            <div class="card-front-right">
+              <div class="front-top-row">
+                <div class="to-block">
+                  <span class="postcard-label">POSTCARD</span>
+                  <div class="to-field">to <em>yuling</em></div>
+                </div>
+                <img class="stamp" src="assets/stamp-blue.png" alt="stamp" />
+              </div>
+
+              <div class="message-area">
+                <p class="message-text">
+                  Hôm nay là kỉ niệm 11 tháng yêu nhau của bọn mình, cũng sắp tròn 1 năm rồi em nhỉ. Em cũng sắp về Việt Nam rồi, nhớ ngày nào e chuẩn bị đi, còn lo lắng bọn mình yêu xa sẽ thế nào, có hiểu được nhau không, có cãi nhau nhiều không, vậy mà giờ vẫn ở bên nhau em nhỉ hehe. Anh yêu em nhiều lắm 
+                </p>
+                <p class="from-text">from <em>kieuhuy</em></p>
+              </div>
+            </div>
+
+            <img class="star-charm" src="assets/star-charm.png" alt="star" />
+          </div>
+
+          <!-- BACK -->
+          <div class="card-face card-back">
+            <img class="couple-img" src="assets/we.jpg" alt="us" />
+            <div class="anniversary-overlay">11 month anniversary</div>
+          </div>
+
+        </div>
+      </div>
+    </div>  <!-- end envelope-wrapper -->
+
+    <button class="flip-btn" id="flipBtn">↺ Click to flip</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
